@@ -1,0 +1,1 @@
+./dump_features -rir_list /newhome/sdd/pengdingwei/RNNOISE_16K/rir_list.txt  /newhome/sdd/pengdingwei/RNNOISE_16K/audio_16k/tts_speech_16k.pcm  /newhome/sdd/pengdingwei/RNNOISE_16K/noise_16k/background_noise_v2_16k.pcm /newhome/sdd/pengdingwei/RNNOISE_16K/noise_16k/foreground_noise_v3_16k.pcm  /newhome/sdd/pengdingwei/RNNOISE_16K/features.f32  200000
