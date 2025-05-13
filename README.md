@@ -15,6 +15,8 @@ RNNOISE combines digital signal processing (DSP) techniques with deep learning t
 1.	Preprocessing: Audio is augmented with noise/reverb, then processed in C to extract: 	Per-band energy, Pitch period and correlation
 2.	GRU-based suppression: The network predicts gain per frequency band, interpolated to individual bins for denoising.
 3.	Output: The denoised audio retains the original phase but may exhibit distortion due to spectral modifications.
+4.  The frequency bands are divided using a triangular filterbank (illustrated below).
 
-#### Filterbank Design in RNNOISE
-The frequency bands are divided using a triangular filterbank (illustrated below).
+![image](https://github.com/user-attachments/assets/24662348-aa96-4117-a25c-f3686bb64a32)
+#### 演示效果
+<img src="https://github.com/user-attachments/assets/24662348-aa96-4117-a25c-f3686bb64a32" alt="动态演示" width="500" align="center">
